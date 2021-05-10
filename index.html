@@ -4,8 +4,12 @@
 	<title>HereInfo.com</title>
 	<meta charset="utf-8">
 
+	<!-- Font -->
+	<div style="font-family: Gotham,sans-serif;">
+
 	<!-- CSS -->
 	<link href="public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="nisarg/style.css" rel="stylesheet">
 	
 </head>
 <body>
@@ -35,13 +39,18 @@
 			}
 	</style>
 <div id="livro" class="list-group">
-					<a href="https://davidoc-dot.github.io/login-meu-site/"><button style="background: white; border-radius: 6px; padding: 15px; cursor: pointer; color: black; border: none; font-size: 16px;">Cadastrar-se</button></a>
+					<a href="https://davidoc-dot.github.io/login-meu-site/"><button style="background: white; border-radius: 6px; padding: 6px; cursor: pointer; color: black; border: none; font-size: 16px;">Cadastrar-se</button></a>
 
+				
 				</div>
 			</div>
 				<div data-spy="scroll" data-target="#livro" data-offset="0">
-					<div class="name" id="h2" style="position: center; height: 80px; overflow: auto; text-align: center;">
-					<h2>HereInformation.com</h2>
+					<div class="name" id="h2" style="position: center; height: 80px; overflow: auto; text-align: center; font-family: Gotham,sans-serif;">
+					<button style="background: #FFF0F5; border-color: #FFF0F5; position: center; height: 80px; overflow: auto; text-align: center; font-family: Gotham,sans-serif; font-size: 16px; color: black;">HereInformation.com</button>
+					<address>
+    Acessar <a href="http://www.youtube.com/">HereInformation.com</a>.<br> 
+    <div style="text-align: center">
+  </address>
 				</div>
 
 		<!-- Scrollspy --> 		
@@ -52,6 +61,7 @@
 			<div class="col-4">
 
 				<div id="livro" class="list-group">
+					<div class="row" id="caixaLivro" style="position: bottom; height: 500px; overflow: auto; font-family: Gotham,sans-serif;">
 					<a class="list-group-item list-group-item-action" href="#c1">Chapter 1</a>
 					<a class="list-group-item list-group-item-action" href="#c2">Chapter 2</a>
 					<a class="list-group-item list-group-item-action" href="#c3">Chapter 3</a>
@@ -60,9 +70,10 @@
 					<a class="list-group-item list-group-item-action" href="#c6">Chapter 6</a>
 					<a class="list-group-item list-group-item-action" href="#E">Epilogue</a>
 					<a class="list-group-item list-group-item-action" href="#M">Medals</a>
+					</div>
 				</div>
 			</div>
-			<div class="col-8" id="caixaLivro" style="position: relative; height: 500px; overflow: auto;">
+			<div class="col-8" id="caixaLivro" style="position: bottom; height: 500px; overflow: auto; font-family: Gotham,sans-serif;">
 
 				<div data-spy="scroll" data-target="#livro" data-offset="0">
 					<h3 id="c1">Chapter 1</h3>
@@ -89,12 +100,13 @@
 <div class="col-8" id="caixaLivro" style="position: relative; height: 500px; overflow: auto;">
 
 					<h3 id="M">Medals</h3>
-					<p>Medalhas do Capítulo 1: 
-					<p>Missão >> Fora da Lei Vindos do Oeste</p>
-					<p>1. Não sofrer dano algum durante o tiroteio</p>
-					<p>2. Pegar seis ou mais itens no Rancho Adler</p>
-					<p>3. Terminar com pelo menos 80% de precisão</p>
-					<br>Essa missão desbloqueia as armas Revólver de Vaqueiro, Faca de Caça e o item Lampião.<br>
+					Medalhas do Capítulo 1:<br>
+					Missão >> Fora da Lei Vindos do Oeste<br>
+					1. Não sofrer dano algum durante o tiroteio<br>
+					2. Pegar seis ou mais itens no Rancho Adler<br>
+					3. Terminar com pelo menos 80% de precisão<br>
+					Essa missão desbloqueia as armas Revólver de Vaqueiro, Faca de Caça e o item Lampião.<br>
+
 
 					<br>Missão >> Assombrado por uma Lembrança<br> 
 					<br>1. Terminar com pelo menos 80% de precisão<br>
@@ -136,7 +148,6 @@
 			</div>
 
 	</div>
-
 	<!-- Carousel -->
 	<div class="container" style="background-color: black">
 		<h1>chapters images</h1>
@@ -157,11 +168,11 @@
 			<div class="carousel-inner">
 				<!-- imagem 1 -->
 				<div class="carousel-item active">
-					<img src="public/img/natureza1.jpeg" alt="Imagem da uma ponte sobre o rio" style="max-height: 500px">
+					<img src="public/img/RDR2.jpg" alt="Deserto" style="max-height: 500px">
 
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Visionário</h5>
-						<p>Teste</p>
+						<p>Deserto</p>
 					</div>
 				</div>
 				
@@ -169,10 +180,10 @@
 				<!-- imagem 2 -->
 				<div class="carousel-item">
 
-					<img src="public/img/natureza2.jpeg" alt="Floresta no outono" style="max-height: 500px">
+					<img src="public/img/rdr22.jpg" alt="Floresta no inverno" style="max-height: 500px">
 
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Supermain</h5>
+						<h5>Inverno</h5>
 						<p>Raiozz</p>
 					</div>
 				</div>
@@ -180,10 +191,10 @@
 
 				<!-- imagem 3 -->
 				<div class="carousel-item">
-					<img src="public/img/natureza3.jpeg" alt="Nascer do sol" style="max-height: 500px">
+					<img src="public/img/rdr222.jpg" alt="Nascer do sol" style="max-height: 500px">
 
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Test</h5>
+						<h5>Sol</h5>
 						<p>Nascer do sol</p>
 					</div>
 				</div>
